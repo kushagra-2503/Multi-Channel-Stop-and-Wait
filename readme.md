@@ -5,14 +5,14 @@ This repository contains an implementation of a stop and wait protocol over two 
 ## Execution Instructions:
 
 1. Compile the files using command<br/>
-     'gcc -o client mc_stop_wait_client.c'
-     'gcc -o server mc_stop_wait_server.c'
+     `gcc -o client mc_stop_wait_client.c`
+     `gcc -o server mc_stop_wait_server.c`
 
 2. Execution:<br/>
 Please note first the server needs to be started using the command<br/>
-    './server'
+    `./server`
 followed by the client with command<br/>
-    './client'
+    `./client`
  
 ## Multi-channel stop-and-wait protocol without DATA or ACK losses.
 1. The sender transmits packets through two different channels (TCP connections).
