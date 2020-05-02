@@ -5,7 +5,7 @@ This repository contains an implementation of a stop and wait protocol over two 
 ## Execution Instructions:
 
 1. Compile the files using command<br/>
-     `gcc -o client mc_stop_wait_client.c`
+     `gcc -o client mc_stop_wait_client.c` <br/>
      `gcc -o server mc_stop_wait_server.c`
 
 2. Execution:<br/>
