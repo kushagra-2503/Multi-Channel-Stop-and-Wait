@@ -1,5 +1,3 @@
-On branch master
-Untracked files:
-	readme.md
+# Multi Channel Stop and Wait Protocol
 
-nothing added to commit but untracked files present
+This repository contains an implementation of a stop and wait protocol over two concurrent channels.
