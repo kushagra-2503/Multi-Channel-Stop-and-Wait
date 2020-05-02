@@ -5,14 +5,14 @@ This repository contains an implementation of a stop and wait protocol over two 
 ## Execution Instructions:
 
 1. Compile the files using command<br/>
-     gcc -o client mc_stop_wait_client.c<br/>
-     gcc -o server mc_stop_wait_server.c<br/>
+     'gcc -o client mc_stop_wait_client.c'
+     'gcc -o server mc_stop_wait_server.c'
 
 2. Execution:<br/>
 Please note first the server needs to be started using the command<br/>
-    ./server<br/>
+    './server'
 followed by the client with command<br/>
-    ./client<br/>
+    './client'
  
 ## Multi-channel stop-and-wait protocol without DATA or ACK losses.
 1. The sender transmits packets through two different channels (TCP connections).
@@ -27,3 +27,4 @@ that case, the server has to buffer the packets temporarily to finally construct
 Write client and server programs to upload a given file (“input.txt”) from client to the server using
 ARQ protocol as described above by making TCP connections between the client and the server.
 
+For detailed solution explanation, refer readme.txt
