@@ -10,7 +10,7 @@ This repository contains an implementation of a stop and wait protocol over two 
 
 2. Execution:<br/>
 Please note first the server needs to be started using the command<br/>
-    `./server`
+    `./server`<br/>
 followed by the client with command<br/>
     `./client`
  
