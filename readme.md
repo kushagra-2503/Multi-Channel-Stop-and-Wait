@@ -1,6 +1,6 @@
 # Multi Channel Stop and Wait Protocol
 
-This repository contains an implementation of a stop and wait protocol over two concurrent channels for a dile transfer from client to server.
+This repository contains an implementation of a stop and wait protocol over two concurrent channels for a file transfer from client to server.
 
 ## Execution Instructions:
 
